@@ -2,9 +2,9 @@
 <h2>All about me</h2>
 <h3>Current interest</h3>
 <div>
- <ol>
+ <ul>
   <li>HTML</li>
   <li>CSS</li>
   <li>JAVASCRIPT</li>
- </ol>
+ </ul>
 </div>
