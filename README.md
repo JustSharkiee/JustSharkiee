@@ -8,3 +8,11 @@
   <li>JAVASCRIPT</li>
  </ul>
 </div>
+<h3>Hobbies</h3>
+<div>
+ <ul>
+  <li>Print on Demand</li>
+  <li>Music</li>
+  <li>Video Games</li>
+ </ul>
+</div>
