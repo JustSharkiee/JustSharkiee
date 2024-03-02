@@ -1,0 +1,90 @@
+<!DOCTYPE=html> 
+  <html lang="en">
+    <head>
+    <title>Survey Form</title>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet'type='text/css' href='main.css'>
+    </head>
+    <div>
+    <body>
+    <h1 id='title'>Survey Form</h1>
+    <p id='description'>Thank you for completing our survey</p>
+    <div>
+    <form id='survey-form' action='Submit'>
+     
+        <label for='name' class="text" id='name-label' >Enter Your First Name:<input id='name' class="input" type="text" placeholder='Enter Your Name' required /></label>
+      <br>
+        <label for='name' class="text" id='name-label' >Enter Your Last Name:<input id='name' class="input" type="text" placeholder='Enter Your Name' required /></label>
+      
+      
+        <label for="email" class="text" id='email-label' >Enter Your Email:  <input class="input" id="email" type="email" required placeholder='Enter Your Email' /></label>
+      
+      <br>
+      <label for='tel' class="text" id='number-label'>Enter Your Number: <input class="input"
+        type='tel' id='number' name='number' min="10" max="10" placeholder='Enter Your Number'  required></label>
+      
+      
+      <br>
+      <div>
+        <label for="status" class="text" >Select Marital Status:
+      <select id='dropdown'>
+      <option value='marital-status'>Marital Status</option>
+      <option value='single'>Single</option>
+      <option value='married'>Married</option>
+      <option value='widowed'>Widowed</option>
+      <option value='separated'>Separated</option>
+      <option value='divorced'>Divorced</option>
+      </select></label>
+      </div>
+      <div>
+        <label for="gender" class="text">Select Gender:
+        <select id='dropdown' for='gender' type='dropdown'>
+            <option value='gender'>Gender</option>
+            <option value='single'>Femal</option>
+            <option value='married'>Male</option>
+            <option value='widowed'>Non-binary</option>
+            </select></label>
+      </div>
+      </di>
+      <div>
+      <ul>
+      <ol for="citizen-ship" class="radio">Citizenship</ol>
+      <ol for="us-citizen" ><input id="us-citizen" type="radio" name="citizen-ship" class="grid-style" value='us-citizen'/>US Citizen</ol>
+      <ol for="non-citizen" ><input id="non-citizen"  type="radio" name="citizen-ship" class="grid-style" value="non-citizen" />Non Citizen<ol>
+      <ol for="other" name="citizenship"><input id="other" type="radio" name="citizen-ship" class="grid-style" value="other"/>Other</ol>
+      </ul>
+
+      <div class="container1">
+      <ul>
+      <ol for="student" class="radio">Are you a Student</ol>
+      <ol for="yes"><input name="student" type="radio" value="yes" class="list-style">Yes</ol>
+      <ol for="no"><input name="student" type="radio" value="no" class="list-style">No</ol>
+      <ol for="other"><input name="student" type="radio" value="other"class="list-style">Other</ol>
+      </ul>
+      </div>
+      <div class="container1">
+      <ul>
+      <ol for="diploma">Did you graduate high school?</ol>
+      <ol for="diploma"><input name="diploma" value="yes" type="checkbox" class="inline"/>Yes</ol>
+      <ol for="diploma"><input name="diploma" value="no" type="checkbox" class="inline">No</ol>
+      </ul>
+      </div>
+      </div>
+      <div>
+      <label for="comments-or-suggestions" class="form-label">Do you have some additional comment or suggest for us?</label>
+      <textarea class="form-textarea" name="comments-or-suggestions" id="comments-or-suggestions"></textarea>
+      </div>
+      <ul>
+      <ol for="consent">You you agree to Participate in this survey?</ol>
+      <ol for="consent"><input type="checkbox" name="consent" value="yes" class="inline"/>Yes</ol>
+      <ol for="consent"><input type="checkbox" name="consent" value="no" class="inline"/>No</ol>
+      <div>
+      <input type="submit" class="button" id="submit" value="Submit Survey">
+      </div>
+    </form>
+    <h6>Just Sharkie</h6>
+    </div>
+    </body>
+    </div>
+    </html>
